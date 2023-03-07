@@ -6,6 +6,7 @@ Created on Wed Aug  4 17:45:56 2021
 """
 import torchani
 from rdkit import Chem
+from rdkit.Chem import AllChem
 import numpy as np
 from ase import Atoms
 from ase.optimize import BFGS
